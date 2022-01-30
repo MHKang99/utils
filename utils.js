@@ -15,3 +15,9 @@ function power(num1, num2) {
 }
 
 power(process.argv[2], process.argv[3])
+
+function subtract(num1, num2) {
+    console.log(num1-num2); 
+}
+
+subtract(process.argv[2], process.argv[3])
