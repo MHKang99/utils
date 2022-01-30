@@ -9,3 +9,9 @@ function divide(num1, num2) {
 }
 
 divide(process.argv[2], process.argv[3])
+
+function power(num1, num2) {
+    console.log(num1**num2); 
+}
+
+power(process.argv[2], process.argv[3])
